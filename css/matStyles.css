@@ -1,0 +1,128 @@
+
+
+
+#headline {
+  padding: 0.8em;
+  /*color: white;*/
+  
+  font-family: Roboto, sans-serif;
+  background-image: url(../images/sigma.jpg);
+  background-size: cover;
+}
+
+#headline #register {
+  color:white;
+  padding: 1em;
+  background:#39b1a4;
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+}
+
+
+#headline #register input[type=submit] {
+    background-color: hsl(8, 70%, 54%);
+    color: white;
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+
+@media (min-width: 600px) {
+
+
+.container {
+	margin:auto;
+	max-width:800px;
+}
+
+#headline {
+  /*padding: 0.8em;*/
+  /*color: white;*/
+  padding: 20px 5%;
+  font-family: Roboto, sans-serif;
+  background-image: url(../images/sigma.jpg);
+  background-size: cover;
+}
+
+
+#headline #blurb {
+  float: left;
+  font-weight: 500;
+  width: 50%;
+  font-size: 18px;
+  box-sizing: border-box;
+  padding-right: 10px;
+}
+
+#headline #register {
+  float:right;
+  padding: 20px;
+  width: 50%;
+  box-sizing: border-box;
+  font-weight: 300;
+}
+
+#headline br {
+  clear: both;
+}
+
+
+
+#section1 ul {
+  box-sizing: border-box;
+  float: left;
+  width: 50%;
+  padding-right: 1em;
+}
+
+#section1 video {
+  width: 50%;
+  float: right;
+}
+
+
+#section2 div img {
+  width: 30%;
+  margin: 1%;
+  box-sizing: border-box;
+  border-radius: 50% 50%;
+  box-shadow: black 0px 0px 5px;
+}
+
+
+<tbody>
+ <tr>
+    <td data-th="Country"><a href="http://gs.statcounter.com/#desktop+mobile+tablet-comparison-IN-monthly-201303-201403">India</a></td>
+    <td data-th="Desktop share">32%</td>
+    <td data-th="Table share">1%</td>
+    <td data-th="Mobile share">67%</td>
+  </tr>
+  <tr>
+    <td data-th="Country"><a href="http://gs.statcounter.com/#desktop+mobile+tablet-comparison-GB-monthly-201303-201403">GB</a></td>
+    <td data-th="Desktop share">69%</td>
+    <td data-th="Table share">13%</td>
+    <td data-th="Mobile share">18%</td>
+  </tr>
+  <tr>
+    <td data-th="Country"><a href="http://gs.statcounter.com/#desktop+mobile+tablet-comparison-US-monthly-201303-201403">US</a></td>
+    <td data-th="Desktop share">69%</td>
+    <td data-th="Table share">9%</td>
+    <td data-th="Mobile share">22%</td>
+  </tr>
+  <tr>
+    <td data-th="Country"><a href="http://gs.statcounter.com/#desktop+mobile+tablet-comparison-CN-monthly-201303-201403">China</a></td>
+    <td data-th="Desktop share">86%</td>
+    <td data-th="Table share">4%</td>
+    <td data-th="Mobile share">10%</td>
+  </tr>
+</tbody>
+
+
+
+}
