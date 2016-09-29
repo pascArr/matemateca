@@ -1,0 +1,113 @@
+/** GLOBAL STYLES **/
+
+* {
+  box-sizing: border-box;
+}
+
+html, body{
+    margin:0px;
+    padding:0px;
+}
+
+body {
+  
+
+  background-color: #42233e;
+  overflow-x: hidden;
+  
+}
+
+
+img { 
+  max-width: 100%; 
+  background-size: cover;
+}
+/*
+div.fullWidth {
+  width: 100%;
+}
+
+main {
+
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+*/
+.full-width {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
+p, figure {
+  margin: 15px 0;
+}
+
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 3px 3px;
+    }
+
+
+.logo-img {
+  background: url('../images/logo75.png') no-repeat;
+  width: 75px;
+  height: 75px;
+  margin: 5px 5px 5px 2px;
+
+}
+
+
+#header-nav {
+  background-color:#ecece2;
+  border-radius: 0;
+  border: 0;
+}
+
+
+.container {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+}
+
+.c1, .c2, .c3, .c4 {
+  width: 100%;
+}
+
+@media (min-width: 600px) {
+  .c1 {
+    width: 25%;
+  }
+
+  .c4 {
+    width: 75%;
+  }
+
+}
+
+@media (min-width: 800px) {
+  .container {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .navbar-brand {
+    float: left;
+    height: 3.5em;
+    padding: 1em;
+    }
+
+
+
+
+}
+
+
