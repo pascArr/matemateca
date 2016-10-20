@@ -76,7 +76,7 @@ h1.opening{
   /*color:#3D3D3D;*/
   font-family: "ff-enzo-web",sans-serif;
   font-style: normal;
-  font-size:1.5em;
+  font-size:2em;
   font-weight: 600;
 
 }
@@ -309,8 +309,8 @@ figure {
 
 .pf-carousel {
   background-color: #F0FFE4;
-  margin-right: 15px;
-  margin-left: 15px;
+  margin-right: 5px;
+  margin-left: 5px;
   text-align:center;
 
 
@@ -318,15 +318,15 @@ figure {
 
 .carousel-control.right, .carousel-control.left {
     background-image: none;
-    color: #42233e;
+    color: #7D6D87;
 }
 
 .carousel-indicators li {
-    border-color: #42233e;
+    border-color: #7D6D87;
 }
 
 .carousel-indicators li.active {
-    background-color: #42233e;
+    background-color: #7D6D87;
 }
 
 .item h4 {
@@ -334,7 +334,7 @@ figure {
     line-height: 1.5em;
     font-weight: 400;
     font-style: italic;
-    margin: 35px 1px 1px 70px;
+    margin: 35px 1px 1px 5px;
 }
 
 .item span {
