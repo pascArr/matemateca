@@ -211,12 +211,23 @@ figure {
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
   border: 1px solid #263238;
   background-color:#ddd;
+  
 }
+
+
 .navbar-header button.navbar-toggle {
   clear: both;
   margin-top: -40px;
-  margin-right:10%;
+  margin-right:5%;
 }
+
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 22px;
+    height: 1px;
+    border-radius: 1px;
+}
+
 
 #collapsable-nav a { /* Collapsed nav menu text */
   font-size: 1.2em;
@@ -254,13 +265,15 @@ figure {
 .jumbotron {
       
       color: #fff;
-      margin: 55px 0px 0px 0px;
+      margin: 0px 0px 0px 0px;
       padding: 50px 25px;
       /*font-family: Montserrat, sans-serif;*/
       padding-top:10%;
       font-family: flood-std, sans-serif;
       font-style: normal;
       font-weight: 400;
+      background-size: contain;
+      background-position: center
   }
 
 .display{
@@ -269,12 +282,6 @@ figure {
 /**/
 }
 
-.opening {
-  background-color: #F0FFE4;
-  text-align:center;
-  
-
-}
 
 
 }
@@ -360,18 +367,19 @@ figure {
 .jumbotron {
       
      
-      margin: 55px 0px 0px 0px;
+      margin: 0px 0px 0px 0px;
       padding: 50px 25px;
       
       padding-top:10%;
   }
 
 
+  
 
 
 }
 
-@media (min-width: 800px) {
+@media (min-width: 768px) {
 
 
  
@@ -386,7 +394,7 @@ figure {
 .jumbotron {
       
       
-      margin: 30px 0px 0px 0px;
+      margin: 0px 0px 0px 0px;
       padding: 50px 25px;
       
       padding-top:10%;
@@ -398,10 +406,13 @@ figure {
   .navbar-brand {
     float: left;
     height: 3.5em;
-    padding: 1em;
+    padding: 1.5em;
     }
 
-
+#header-nav {
+  
+  padding-top: 10px;
+}
   
 #section{
   font-size:1.2em;
